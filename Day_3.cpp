@@ -1,3 +1,14 @@
+struct Node
+{
+  int data;
+  Node *next;
+  Node (int x)
+  {
+    data = x;
+    next = NULL;
+  }
+}
+
 //Write a function “insert_any()” for inserting a node at any given position of the linked list. Assume
 position starts at 0.
 Node insert_any(Node *head, int pos, int data)
