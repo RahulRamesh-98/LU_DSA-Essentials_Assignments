@@ -1,4 +1,5 @@
 //Write the program for deleting an element from the beginning and from any position.
+
 int DeleteHead(int array[], int n)
 {
   array[0] = 0;
@@ -11,6 +12,7 @@ int DeleteHead(int array[], int n)
 
 //Write the program for printing the array after rotating it k times towards left, where k
 would be taken as user input.
+
 int RotateLeft(int array[], int n, int k)
 {
   int result[n];
